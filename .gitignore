@@ -1,15 +1,16 @@
+# Ignorar toda la configuración del IDE
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Ignorar archivos generados por el sistema y compilación
+.gradle/
+/build/
+/captures/
+.cxx/
+.externalNativeBuild/
+
+# Archivos locales con rutas de tu PC (MUY IMPORTANTE)
 local.properties
+
+# Archivos de sistema
+.DS_Store
